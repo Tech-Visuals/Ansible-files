@@ -1,0 +1,51 @@
+# Exclude individual files
+.bash_history
+.bash_logout
+.bashrc
+.cache/motd.legal-displayed
+.kubernetes-setup.yml.swk
+.kubernetes-setup.yml.swl
+.kubernetes-setup.yml.swp
+.master2.yml.swp
+.profile
+.ssh/authorized_keys
+.ssh/id_rsa
+.ssh/id_rsa.pub
+.ssh/known_hosts
+.ssh/known_hosts.old
+.sudo_as_admin_successful
+.vim/.netrwhist
+.viminfo
+.worker2.yml.swj
+.worker2.yml.swk
+.worker2.yml.swl
+.worker2.yml.swm
+.worker2.yml.swn
+.worker2.yml.swo
+.worker2.yml.swp
+helm.yml
+host2.ini
+kubeadm-dependency.yml
+kubeadm-scripts
+master2.yml
+techvisuals-key-pair.pem
+worker2.yml
+
+# Exclude all files in the .cache directory
+.cache/*
+
+# Exclude all files in the .vim directory
+.vim/*
+
+# Exclude all files in the .ssh directory
+.ssh/*
+
+# Exclude all files in the .worker2.yml.sw directory
+.worker2.yml.sw/*
+
+# Exclude all .sw files
+*.sw*
+
+# Exclude all files with .swn and .swo extensions
+*.[swnswo]
+
